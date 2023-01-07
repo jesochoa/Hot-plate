@@ -10,9 +10,9 @@ La rutina de leer la termocupla es creada por mi
 #include <OLED_I2C.h> //Libreria para la pantalla OLED
 
 // Configuro SPI
-#define SCLK PIN_SPI_SCK  // Reloj SPI D13
-#define MISO PIN_SPI_MISO // Lee del dispositivo SPI D12
-#define CS PIN_SPI_SS     // Habilita leer los datos D10
+#define SCLK PIN_SPI_SCK  //  Reloj SPI D13
+#define MISO PIN_SPI_MISO //  Lee del dispositivo SPI D12
+#define CS PIN_SPI_SS     //  Habilita leer los datos D10
 
 //Entradas y salidas
 #define MENU A2      // Pin A2 para el menu MANUAL/REFLOW
